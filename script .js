@@ -18,12 +18,12 @@ function changeText(id, message){
 
 //hides an element
 function hide(id){
-    document.getElementById('option1').style.visibility = 'hidden'
+    document.getElementById(id).style.visibility = 'hidden'
 }
 
 //shows an element
 function show(id){
-    document.getElementById('option1').style.visibility = 'visible'
+    document.getElementById(id).style.visibility = 'visible'
 }
 
 
