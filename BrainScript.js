@@ -32,4 +32,11 @@ function show(id){
 }
 
 
+function lengthOf(string){
+    return string.length
+}
 
+
+function contains(string, character){
+    return string.includes(character, 0)
+}
