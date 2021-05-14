@@ -11,3 +11,5 @@ function random(min, max){
 }
 
 Beginner programmers can then import this file to whatever project their working on and can get used to coding in JavaScript
+
+for any questions join the discord https://discord.gg/9dDQBBmzpx
