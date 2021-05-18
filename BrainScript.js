@@ -32,11 +32,35 @@ function show(id){
 }
 
 
+//gets the length of a string
 function lengthOf(string){
     return string.length
 }
 
-
+//checks if a string includes a certain character or string
 function contains(string, character){
     return string.includes(character, 0)
+}
+
+
+//clicks an element
+function click(id){
+    document.getElementById(id).click()
+}
+
+
+//finds the hypotonuse of a right triangle
+function findHypotonuse(leg1, leg2){
+    return Math.sqrt(leg1 * leg1 + leg2 * leg2)
+}
+
+//finds the leg of a right triangle
+function findLeg(leg1, hypotonuse){
+    return Math.sqrt(hypotonuse * hypotonuse - leg1 * leg1)
+}
+
+
+//turns an element 1 degree
+function Turn(id){
+    document.getElementById(id).style.transform = 'rotate(1deg)'
 }
