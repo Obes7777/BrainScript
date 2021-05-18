@@ -4,7 +4,7 @@ function randomInt(min, max){
 }
 
 //random num including decimals
-function randomInt(min, max){
+function randomNum(min, max){
     return Math.random() * (max - min + 1) + min
 }
 
