@@ -1,0 +1,110 @@
+Welcome to brainScript
+
+brainScript is a javaScript library that includes math operations, dom maniulation, string operations, and a more advanced date object
+
+
+All of brainScript is compiled into one object "brain" which is then split into 4 sub-objects
+    math
+
+    string
+
+    dom
+
+    date
+
+
+The math object
+    The math object has 5 functions within it
+    randomInt(min, max)
+        enter the minimum and maximum numbers and it will return a integer (nt including decimals) bewtween the min and max
+
+    randmonNum(min, max)
+        simalar to randomInt function but the number returned will include decimals
+
+    findHypotonuse(leg1, leg2)
+        uses pythagreon theorem to find the hypotonuse of a right triangle, enter both legs and it will return the hypotonuse
+
+    findLeg(leg, hypotonuse)
+        uses pythagreon theorem to find the hypotonuse of a right triangle, enter the leg and hypotonuse and it will return the leg
+
+    circleArea(radius)
+        enter the radius of a circle and it will find the area of the circle
+
+The string object
+    The string object has 4 functions
+    characterOfString(string, letterNum)
+        enter the string and the letter of the string you want to find
+
+    length(string)
+        enter the string and it will return th e length
+
+    stringContains(string, character)
+        enter the string and the character or string that you want to check if the first string includes then it will return true or false
+
+    letterOfStringIs(string, letterNum, character)
+        checks if a specific letter (letterNum) in the string is the character then returns true or false
+
+The dom object
+    The dom object contains 6 functions
+        changeText(id, string)
+            changes the text based off the id you put in, both parameters are stringContains
+
+        hide(id)
+            hides the element based off the id you give, id parameter is a string
+
+        show(id)
+            shows the element based off the id you give, id parameter is a string
+
+        click(id)
+            clicks the element based off the id you give, id parameter is a string
+
+        rotate(id, degree)
+            rotates the element the degree amount, both parmeters are stringContains
+
+        transparency(id, amount)
+            makes the element transparent based off the amount you gave, both parameters are stringContains
+
+The date object
+    The date object in brainScript is the same as the built in date object that javaScript has
+    while this date object does have 3 more functions than the built in object its main
+    function is to save time with the built in object because you no longer have to declare a
+    variable and add a constructor to get the date object
+    !!the brainScript date object has slightly different syntax than the built in object to avoid confusion with the browser!!
+    The date object has 12 functions 
+        getFullDate()
+            returns the full date as a string in the format of "dayOfWeekString, dayOfMonth, monthString, year"
+
+        getDayOfWeekString()
+            returns the day of the week as a string ("sunday", "monday", etc.)
+
+        getMonthsString()
+            return the month as a string ("January", "February", etc.)
+
+        getYear()
+            returns the year
+
+        getMonthNum()
+            returns the month as a number 0-11
+
+        getDayOfMonth()
+            returns the day of the month 1-31
+
+        getHour()
+            returns the hour 0-23
+
+        getMinute()
+            returns the minute 0-59
+
+        getSecond()
+            returns the second 0-59
+
+        getMillisecond()
+            returns the millisecond 0-999
+
+        getDayOfWeekNum()
+            returns the day of the week 0-6
+
+        getCurrentTime()
+            returns the milliseconds since January 1, 1970
+
+Please report any bugs or misspellings on the official discords bugs channel, the discord can be found on the github page
