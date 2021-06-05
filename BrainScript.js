@@ -64,3 +64,4 @@ function findLeg(leg1, hypotonuse){
 function Turn(id){
     document.getElementById(id).style.transform = 'rotate(1deg)'
 }
+3.14159263
