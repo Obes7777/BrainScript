@@ -3,7 +3,7 @@ Welcome to brainScript
 brainScript is a javaScript library that includes math operations, dom maniulation, string operations, and a more advanced date object
 
 
-All of brainScript is compiled into one object "brain" which is then split into 4 sub-objects
+All of brainScript functions are compiled into one object "brain" which is then split into 4 sub-objects
     math
 
     string
@@ -11,6 +11,8 @@ All of brainScript is compiled into one object "brain" which is then split into 
     dom
 
     date
+
+there are also some booleans for  certain keys and the mouse
 
 
 The math object
@@ -30,6 +32,9 @@ The math object
     circleArea(radius)
         enter the radius of a circle and it will find the area of the circle
 
+    circleCircumference(diameter)
+        enter the diameter of a circle and it will find the circumference
+
 The string object
     The string object has 4 functions
     characterOfString(string, letterNum)
@@ -44,10 +49,13 @@ The string object
     letterOfStringIs(string, letterNum, character)
         checks if a specific letter (letterNum) in the string is the character then returns true or false
 
+    stringType(string)
+        returns the string type, string, number, or boolean
+
 The dom object
     The dom object contains 6 functions
         changeText(id, string)
-            changes the text based off the id you put in, both parameters are stringContains
+            changes the text based off the id you put in, both parameters are strings
 
         hide(id)
             hides the element based off the id you give, id parameter is a string
@@ -59,10 +67,13 @@ The dom object
             clicks the element based off the id you give, id parameter is a string
 
         rotate(id, degree)
-            rotates the element the degree amount, both parmeters are stringContains
+            rotates the element the degree amount, both parmeters are strings
 
         transparency(id, amount)
-            makes the element transparent based off the amount you gave, both parameters are stringContains
+            makes the element transparent based off the amount you gave, both parameters are strings
+
+        style(id, textColor, borderColor, color, borderWidth, borderRadius, font, fontSize, position, top, left, width, height, zIndex)
+            styles an element, if you dont want to style a specific parameter use undefined
 
 The date object
     The date object in brainScript is the same as the built in date object that javaScript has
@@ -106,5 +117,52 @@ The date object
 
         getCurrentTime()
             returns the milliseconds since January 1, 1970
+
+        getClockTime()
+            returns the clock time in the order hours:minutes:seconds
+
+
+I also added some booleans for the mouse pointer and some keys as well as a variable for the current key being pressed
+
+    the mouse boolean is mousDown
+
+    the current key pressed variable is keyPressed
+
+    the key booleans:
+        upArrow 
+        downArrow 
+        rightArrow 
+        leftArrow 
+
+        wKey 
+        sKey 
+        aKey 
+        dKey 
+
+        enterKey 
+        shiftKey 
+        spaceKey 
+        ctrlKey 
+        altKey 
+        EscapeKey 
+        tabKey 
+
+        qkey 
+        eKey 
+
+        zKey 
+        xKey 
+        cKey 
+
+        oneKey 
+        twoKey 
+        threeKey 
+        fourKey 
+        fiveKey 
+        sixKey 
+        sevenKey 
+        eightKey 
+        nineKey 
+        zeroKey 
 
 Please report any bugs or misspellings on the official discords bugs channel, the discord can be found on the github page
